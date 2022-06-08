@@ -67,7 +67,7 @@ foreach ($ROUTES as $index => $information){
         if (array_key_exists("ville", $matches)){
             $concernedCity = $matches["ville"];
             if (array_key_exists($concernedCity, VILLES)){
-                $view = new $information["class"](VILLES[$concernedCity]);
+                $view = new $information["class"]($concernedCity);
                 $view->render();
             } else{
                 $notFound = new NotFoundView();
@@ -75,7 +75,7 @@ foreach ($ROUTES as $index => $information){
             }
         }
         else{
-            $view = new $information["class"];
+            $view = new $information["class"]();
             $view->render();
         }
     }
