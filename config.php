@@ -4,6 +4,7 @@ namespace Config;
 
 const TEMPLATES = [
     "home" => "templates/accueil.php",
+    "devisEnLigne" => "templates/devis_en_ligne.php",
     "peintureVille" => "templates/peintureVille.php",
     "carrelageVille" => "templates/carrelageVille.php",
     "plomberieVille" => "templates/plomberieVille.php",

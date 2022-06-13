@@ -7,6 +7,7 @@ require_once "config.php";
 require __DIR__ . '/vendor/autoload.php';
 
 use View\ContactView;
+use View\DevisEnLigneView;
 use View\PlomberieVilleView;
 use const Config\VILLES;
 use View\HomeView;
@@ -17,22 +18,25 @@ use View\NotFoundView;
 
 $ROUTES = [
     [
-        "pattern" => "/^\/carrelage\/carreleur-(?<ville>[\w\-]+)\/$/", "class" => CarrelageVilleView::class
+        "pattern" => "/^\/carrelage\/carreleur-(?<ville>[\w\-]+)\/?$/", "class" => CarrelageVilleView::class
     ],
     [
-        "pattern" => "/^\/peinture\/peintre-(?<ville>[\w\-]+)\/$/", "class" => PeintureVilleView::class
+        "pattern" => "/^\/peinture\/peintre-(?<ville>[\w\-]+)\/?$/", "class" => PeintureVilleView::class
     ],
     [
-        "pattern" => "/^\/plomberie\/plombier-(?<ville>[\w\-]+)\/$/", "class" => PlomberieVilleView::class
+        "pattern" => "/^\/plomberie\/plombier-(?<ville>[\w\-]+)\/?$/", "class" => PlomberieVilleView::class
     ],
     [
-        "pattern" => "/^\/plomberie\/urgence-(?<ville>[\w\-]+)\/$/", "class" => PeintureVilleView::class
+        "pattern" => "/^\/plomberie\/urgence-(?<ville>[\w\-]+)\/?$/", "class" => PeintureVilleView::class
     ],
     [
-        "pattern" => "/^\/plomberie\/debouchage-(?<ville>[\w\-]+)\/$/", "class" => PeintureVilleView::class
+        "pattern" => "/^\/plomberie\/debouchage-(?<ville>[\w\-]+)\/?$/", "class" => PeintureVilleView::class
     ],
     [
-        "pattern" => "/^\/serrurerie\/serrurier-(?<ville>[\w\-]+)\/$/", "class" => PeintureVilleView::class
+        "pattern" => "/^\/serrurerie\/serrurier-(?<ville>[\w\-]+)\/?$/", "class" => PeintureVilleView::class
+    ],
+    [
+        "pattern" => "/devis-en-ligne/", "class" => DevisEnLigneView::class
     ],
     [
         "pattern" => "/contact/", "class" => ContactView::class

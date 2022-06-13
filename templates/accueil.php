@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -11,7 +11,6 @@
     <meta content="rénovation batiment, batiment rénovation, construction, rénovation d'intérieur" name="keywords">
 
    <?php
-        include_once "commons/common_css.html";
         include_once "commons/common_css.html";
     ?>
 </head>
