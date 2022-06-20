@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Axa Rénovation - Expert de la rénovation tout corps du bâtiment</title>
-    <meta content="Axa Rénovation est une entreprise experte dans la rénovation de bâtiment: carrelage, plomberie, chauffage, peinture dans le nord de la France."
+    <title>Proxi Rénovation - Expert de la rénovation tout corps du bâtiment</title>
+    <meta content="Proxi Rénovation est une entreprise experte dans la rénovation de bâtiment: carrelage, plomberie, chauffage, peinture dans le nord de la France."
           name="description">
     <meta content="rénovation batiment, batiment rénovation, construction, rénovation d'intérieur" name="keywords">
 
@@ -29,9 +29,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up">Axa Rénovation: Rénovation de Bâtiment dans le Nord</h1>
-                <h2 data-aos="fade-up" data-aos-delay="400">Une équipe d'expert du bâtiment: carrelage - plomberie - platrerie et peinture</h2>
-                <div data-aos="fade-up" data-aos-delay="600">
+                <h1>Proxi Rénovation: Rénovation de Bâtiment dans le Nord</h1>
+                <h2>Une équipe d'expert du bâtiment: carrelage - plomberie - platrerie et peinture</h2>
+                <div>
                     <div class="text-center text-lg-start">
                         <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <div class="col-lg-6 hero-img">
                 <img src="public/img/renovation-batiment.jpg" class="img-fluid" alt="Rénovation batiment">
             </div>
         </div>
@@ -57,7 +57,7 @@
 
                 <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
-                        <h2>Axa Rénovation: Qui sommes-nous ?</h2>
+                        <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
                         <h3>Entreprise spécialisée dans la rénovation de bâtiment.</h3>
                         <p>
                             Soucieux d'apporter le meilleur pour nos clients, nous nous impliquons dans chaque chantier avec
@@ -466,7 +466,7 @@
 
             <header class="section-header">
                 <h2>F.A.Q</h2>
-                <p>Pourquoi choisir Axa Rénovation pour vos travaux ?</p>
+                <p>Pourquoi choisir Proxi Rénovation pour vos travaux ?</p>
             </header>
 
             <div class="row">
@@ -549,8 +549,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Testimonials</h2>
-                <p>What they are saying about us</p>
+                <h2>Avis Clients</h2>
+                <p>Ce que nos clients pensent de notre entreprise spécialisée en rénovation de bâtiment</p>
             </header>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -562,12 +562,11 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Merci à Proxi Rénovation pour la rénovation de ma maison, je recommande !
                             </p>
                             <div class="profile mt-auto">
-                                <img src="public/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <p>Marie</p>
+                                <p>Lille (59000)</p>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -578,12 +577,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                Les plombiers d'Proxi Rénovation sont de vrais professionnels de la plomberie, merci
+                                à l'entreprise
                             </p>
                             <div class="profile mt-auto">
-                                <img src="public/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                                <p>Jacques</p>
+                                <p>Roubaix (59100)</p>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -594,12 +593,11 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                Super entreprise de carreleur à Lambersart ! je recommande fortement
                             </p>
                             <div class="profile mt-auto">
-                                <img src="public/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <p>Fanny</p>
+                                <p>Lambersart (59130)</p>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -610,28 +608,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                Des ouvriers du bâtiment qui font au mieux sur le chantier, je recommande sincèrement cette
+                                entreprise du bâtiment très sérieuse.
                             </p>
                             <div class="profile mt-auto">
-                                <img src="public/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
-                            </div>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <div class="stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                            </div>
-                            <p>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                            </p>
-                            <div class="profile mt-auto">
-                                <img src="public/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
+                                <p>Pierre</p>
+                                <h4>Wasquehal (59290)</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -643,33 +625,6 @@
         </div>
 
     </section><!-- End Testimonials Section -->
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-
-        <div class="container" data-aos="fade-up">
-
-            <header class="section-header">
-                <h2>Our Clients</h2>
-                <p>Temporibus omnis officia</p>
-            </header>
-
-            <div class="clients-slider swiper">
-                <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="public/img/clients/client-1.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-2.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-3.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-4.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-5.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-6.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-7.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="public/img/clients/client-8.png" class="img-fluid" alt=""></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-
-    </section><!-- End Clients Section -->
 
 
     <?php
