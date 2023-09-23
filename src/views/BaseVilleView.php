@@ -29,8 +29,8 @@ class BaseVilleView implements BaseViewInterface
 
     public function render()
     {
-        $codePostal = $this->cityInformation["codePostal"];
-        $ville = $this->cityInformation["nom"];
+        $codePostal = $this->cityInformation["code_postal"];
+        $ville = $this->cityInformation["ville"];
         require_once TEMPLATES[$this->templateKeyName];
         exit();
     }

@@ -32,10 +32,10 @@ include_once "commons/header.html";
         <div class="container">
 
             <ol>
-                <li><a href="index.html">Home</a></li>
-                <li>Inner Page</li>
+                <li><a href="/">Accueil</a></li>
+                <li>Devis en ligne</li>
             </ol>
-            <h2>Inner Page</h2>
+            <h2>Devis en Ligne</h2>
 
         </div>
     </section><!-- End Breadcrumbs -->
@@ -47,7 +47,7 @@ include_once "commons/header.html";
 
         <div class="container text-center mt-5">
             <div class="col-md-4 mx-0">
-                <button id="goBack" class="btn btn-secondary" style="display:none">Précédent</button>
+                <a id="goBack" class="btn btn-secondary" style="display:none">Précédent</a>
             </div>
         </div>
     </section>

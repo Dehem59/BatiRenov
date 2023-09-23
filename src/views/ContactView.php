@@ -27,7 +27,8 @@ class ContactView extends BaseAPIView
             else{
                 http_response_code(400);
                 echo json_encode([
-                    "detail" => "Le mail n'a pas été envoyé"
+                    "detail" => "Le mail n'a pas été envoyé", "err"=>error_get_last()['message']
+
                 ]);
             }
 

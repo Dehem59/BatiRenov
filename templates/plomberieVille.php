@@ -49,10 +49,75 @@ include_once "commons/header.html";
 
     <section class="inner-page">
         <div class="container">
-            <p>
-                Example inner page template
-            </p>
+            <h2 class="text-center pb-3">Votre artisan plombier à <?php echo $ville;?></h2>
+            <div class="row justify-content-between">
+                <div class="col-md-3 mt-2">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h3 class="text-center">Dépannage Plomberie</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="icon-in-box text-center">
+                                <i class="ri-home-gear-fill"></i>
+                            </div>
+                            <p>
+                                Votre plombier à <?php echo $ville;?> intervient à votre convenance pour tous dépannages
+                                de plomberie, comme la réparation et détection de fuite mais aussi réparation
+                                d'urgence en plomberie.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h3 class="text-center">Installation Plomberie</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="icon-in-box text-center">
+                                <i class="ri-tools-fill"></i>
+                            </div>
+                            <p>
+                                Notre équipe intervient également pour vos installations de plomberie:
+                                toilette, système de chauffage, salle de bain, douche ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h3 class="text-center">Débouchage Canalisation</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="icon-in-box text-center">
+                                <i class="ri-drop-fill"></i>
+                            </div>
+                            <p>
+                                Service de débouchage d'urgence à <?php echo "$ville ($codePostal)";?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <?php
+    include_once "commons/base_contact.html";
+    ?>
 
 </main><!-- End #main -->
+
+
+<?php
+
+include_once "commons/footer.html";
+?>
+
+
+</body>
+
+</html>

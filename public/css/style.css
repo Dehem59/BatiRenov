@@ -383,14 +383,14 @@ section {
 }
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 37px;
   font-weight: 700;
   color: #012970;
 }
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 22px;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -442,10 +442,10 @@ section {
     text-align: center;
   }
   .hero h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
   .hero h2 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .hero .hero-img img {
     width: 100%;
@@ -1854,6 +1854,150 @@ section {
   font-size: 14px;
 }
 
+
+
+@media screen and (max-width: 700px) {
+  #callbar-fixed{
+    box-shadow: 0 4px 2px -2px gray;
+    background-color: #ab2222;
+    display:none;
+  }
+
+  #callbar-fixed a{
+    text-decoration: None!important;
+  }
+
+
+  .disponibilite {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+
+  .dispo-vert {
+    height: 12px;
+    width: 12px;
+    background-color: #0e8800;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  .numeroTel {
+    width: 100%;
+    text-decoration: none;
+    color: #fff
+  }
+
+  .bandeAppel {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    z-index:100;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center
+  }
+
+
+  .bandeAppel-container {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center
+  }
+
+  .bandeAppel-div-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+  }
+
+  .image-tel {
+    width: 40px;
+    height: 40px;
+    margin: 5px 14px
+  }
+
+  .bandeAppel-text-tel {
+    margin-bottom: 0;
+    color:white!important;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 700
+  }
+
+  .bandeAppel-tel {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 900;
+    color:white!important;
+
+  }
+
+  .bandeAppel-prix-tel {
+    color:white!important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 10px
+  }
+
+  .marged-flex-center,.presentation-div {
+    width: 80%
+  }
+
+  .img-w-100-p {
+    height: 43vw
+  }
+
+  .img24{
+    color:white;
+  }
+}
+
+.icon-in-box{
+  font-size:3em;
+  color: #012970;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1907,7 +2051,7 @@ section {
   background: #5969f3;
 }
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: white no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -2006,4 +2150,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.bg-cta{
+  background-color: #23d2b5;
+  border-radius: 50px
+}
+
+.phone-button-fixed{
+  padding: 8px
+}
+
+#fixed-callbar{
+  margin: auto;
+  box-shadow: 0 5px 14px 0 rgba(0,0,0,.1882352941)
 }

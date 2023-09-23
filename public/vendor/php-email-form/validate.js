@@ -57,6 +57,7 @@
       headers: {'X-Requested-With': 'XMLHttpRequest'}
     })
     .then(response => {
+      console.log(response);
       if( response.ok ) {
         return response.json()
       } else {
@@ -65,12 +66,8 @@
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() == 'OK') {
-        thisForm.querySelector('.sent-message').classList.add('d-block');
-        thisForm.reset(); 
-      } else {
-        throw new Error(data ? data : "L'envoi a échoué: " + action);
-      }
+      thisForm.querySelector('.sent-message').classList.add('d-block');
+      thisForm.reset();
     })
     .catch((error) => {
       displayError(thisForm, error);

@@ -3,7 +3,8 @@
 namespace Core;
 include_once "config.php";
 include_once "BaseMailSender.php";
-use const Config\{MAILS_LIST, FROM_MAIL};
+
+use const Config\{MAIL_TO, MAILS_LIST, FROM_MAIL};
 
 
 class CommonMailSender implements BaseMailSender
@@ -30,18 +31,20 @@ class CommonMailSender implements BaseMailSender
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
         // Additional headers
-        $headers .= 'From: '.FROM_MAIL["nom"].'<'.FROM_MAIL["email"].'>' . "\r\n";
-        $to = "";
-        foreach (MAILS_LIST as $index => $info){
-            if (array_key_last(MAILS_LIST) == $index){
-                $to .= $info["nom"] . '<' . $info["email"] . '>';
-            }
-            else{
-                $to .= $info["nom"] . '<' . $info["email"] . '>,';
-            }
-        }
+        $headers .= 'From: '.FROM_MAIL["email"]."\r\n".
+            'Reply-To: '.FROM_MAIL["email"]."\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+
+//        foreach (MAILS_LIST as $index => $info){
+//            if (array_key_last(MAILS_LIST) == $index){
+//                $to .= $info["nom"] . ' <' . $info["email"] . '>';
+//            }
+//            else{
+//                $to .= $info["nom"] . ' <' . $info["email"] . '>,';
+//            }
+//        }
         return [
-            "headers" => $headers, "to" => $to
+            "headers" => $headers, "to" => MAIL_TO
         ];
     }
 

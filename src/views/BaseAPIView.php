@@ -14,8 +14,8 @@ class BaseAPIView implements BaseViewInterface
 
     static function isSameOrigin(): bool{
         $myDomain       = $_SERVER['HTTP_HOST'];
-        $requestsSource = $_SERVER['HTTP_REFERER'];
-        return parse_url($myDomain, PHP_URL_HOST) == parse_url($requestsSource, PHP_URL_HOST);
+        $requestsSource = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST);
+        return $myDomain == $requestsSource;
     }
 
     static function isAuthorized(): bool{

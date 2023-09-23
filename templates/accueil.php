@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1>Proxi Rénovation: Rénovation de Bâtiment dans le Nord</h1>
+                <h1>Proxi Rénovation: Construction & Rénovation de Bâtiment dans le Nord</h1>
                 <h2>Une équipe d'expert du bâtiment: carrelage - plomberie - platrerie et peinture</h2>
                 <div>
                     <div class="text-center text-lg-start">
@@ -55,7 +55,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="50">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
                         <h3>Entreprise spécialisée dans la rénovation de bâtiment.</h3>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="50">
                     <img src="public/img/entrepreneur-bâtiment.jpeg" class="img-fluid" alt="Entreprise Batiment Nord">
                 </div>
 
@@ -141,7 +141,7 @@
 
             <header class="section-header">
                 <h2>Corps de métier & Compétences</h2>
-                <p><i>"C'est avec des briques que l'on construit une maison."</i></p>
+                <p><i>"Bâtir Demain Ensemble : Notre Expertise, Votre Confiance"</i></p>
             </header>
 
             <div class="row">
@@ -153,42 +153,42 @@
                 <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
                     <div class="row align-self-center gy-4">
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Plomberie</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Peinture</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Carrelage</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Chauffage</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Serrurerie</h3>
+                                <h3>Revêtement de sol</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="1000">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Plaquiste</h3>
@@ -320,8 +320,8 @@
 
                 <div class="row">
 
-                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="public/img/features-3.png" class="img-fluid p-4" alt="">
+                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="50">
+                        <img src="public/img/proxi_renov_batiment.jpg" class="img-fluid p-4" alt="entreprise BTP">
                     </div>
 
                     <div class="col-xl-8 d-flex content">
@@ -335,15 +335,15 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <i class="ri-door-open-line"></i>
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
+                                <i class="ri-home-smile-2-line"></i>
                                 <div>
-                                    <h3>Serrurerie</h3>
-                                    <p>Installation & Dépannage de serrurerie</p>
+                                    <h3>Revêtement de sol</h3>
+                                    <p>Pose & Dépose de tout type de sol (carrelage, moquette, parquet)</p>
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
                                 <i class="ri-lightbulb-flash-line"></i>
                                 <div>
                                     <h3>Electricité</h3>
@@ -351,7 +351,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
                                 <i class="ri-contrast-drop-2-line"></i>
                                 <div>
                                     <h3>Plomberie</h3>
@@ -359,7 +359,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
                                 <i class="ri-home-smile-2-line"></i>
                                 <div>
                                     <h3>Plaquiste</h3>
@@ -367,7 +367,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
                                 <i class="ri-stack-line"></i>
                                 <div>
                                     <h3>Carrelage</h3>
@@ -385,79 +385,6 @@
         </div>
 
     </section><!-- End Features Section -->
-
-<!--    ======= Services Section ======= -->
-<!--    <section id="services" class="services">-->
-<!---->
-<!--        <div class="container" data-aos="fade-up">-->
-<!---->
-<!--            <header class="section-header">-->
-<!--                <h2>Services</h2>-->
-<!--                <p>Veritatis et dolores facere numquam et praesentium</p>-->
-<!--            </header>-->
-<!---->
-<!--            <div class="row gy-4">-->
-<!---->
-<!--                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">-->
-<!--                    <div class="service-box blue">-->
-<!--                        <i class="ri-discuss-line icon"></i>-->
-<!--                        <h3>Nesciunt Mete</h3>-->
-<!--                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>-->
-<!--                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">-->
-<!--                    <div class="service-box orange">-->
-<!--                        <i class="ri-discuss-line icon"></i>-->
-<!--                        <h3>Eosle Commodi</h3>-->
-<!--                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>-->
-<!--                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">-->
-<!--                    <div class="service-box green">-->
-<!--                        <i class="ri-discuss-line icon"></i>-->
-<!--                        <h3>Ledo Markt</h3>-->
-<!--                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>-->
-<!--                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">-->
-<!--                    <div class="service-box red">-->
-<!--                        <i class="ri-discuss-line icon"></i>-->
-<!--                        <h3>Asperiores Commodi</h3>-->
-<!--                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>-->
-<!--                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">-->
-<!--                    <div class="service-box purple">-->
-<!--                        <i class="ri-discuss-line icon"></i>-->
-<!--                        <h3>Velit Doloremque.</h3>-->
-<!--                        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>-->
-<!--                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">-->
-<!--                    <div class="service-box pink">-->
-<!--                        <i class="ri-discuss-line icon"></i>-->
-<!--                        <h3>Dolori Architecto</h3>-->
-<!--                        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>-->
-<!--                        <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!---->
-<!--        </div>-->
-<!---->
-<!--    </section> End Services Section -->
-
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
