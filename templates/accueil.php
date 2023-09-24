@@ -33,7 +33,7 @@
                 <h2>Une équipe d'expert du bâtiment: carrelage - plomberie - platrerie et peinture</h2>
                 <div>
                     <div class="text-center text-lg-start">
-                        <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                        <a href="tel:+33" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -52,10 +52,10 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
             <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
                         <h3>Entreprise spécialisée dans la rénovation de bâtiment.</h3>
@@ -64,16 +64,10 @@
                             une expertise reconnue dans les différents corps de métier du bâtiment.
                             Confiez-nous votre projet de rénovation pour un résultat assuré et selon vos attentes.
                         </p>
-                        <div class="text-center text-lg-start">
-                            <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>En savoir plus</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="50">
+                <div class="col-lg-6 d-flex align-items-center">
                     <img src="public/img/entrepreneur-bâtiment.jpeg" class="img-fluid" alt="Entreprise Batiment Nord">
                 </div>
 
@@ -85,7 +79,7 @@
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <div class="row gy-4">
 
@@ -137,7 +131,7 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <header class="section-header">
                 <h2>Corps de métier & Compétences</h2>
@@ -153,55 +147,61 @@
                 <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
                     <div class="row align-self-center gy-4">
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Plomberie</h3>
+                                <h3><a href="/plomberie/plombier-lille/">Plomberie</a></h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Peinture</h3>
+                                <h3><a href="/carrelage/carreleur-lille/">Carrelage</a></h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
-                            <div class="feature-box d-flex align-items-center">
-                                <i class="bi bi-check"></i>
-                                <h3>Carrelage</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Chauffage</h3>
                             </div>
                         </div>
+                        
+                        <div class="col-md-6">
+                            <div class="feature-box d-flex align-items-center">
+                                <i class="bi bi-check"></i>
+                                <h3><a href="/maconnerie/macon-lille/">Maçonnerie</a></h3>
+                            </div>
+                        </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Revêtement de sol</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="1000">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Plaquiste</h3>
                             </div>
                         </div>
-
+                        
+                        <div class="col-md-6">
+                            <div class="feature-box d-flex align-items-center">
+                                <i class="bi bi-check"></i>
+                                <h3><a href="/peinture/peintre-lile/">Peinture</a></h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div> <!-- / row -->
 
             <!-- Feature Tabs -->
-            <div class="row feture-tabs" data-aos="fade-up">
+            <div class="row feture-tabs">
                 <div class="col-lg-6">
                     <h3>Pourquoi faire appel à nos artisans experts ?</h3>
 
@@ -315,19 +315,19 @@
             </div><!-- End Feature Tabs -->
 
             <!-- Feature Icons -->
-            <div class="row feature-icons" data-aos="fade-up">
+            <div class="row feature-icons">
                 <h2 class="text-center">Entreprise tout corps de bâtiment dans le nord</h2>
 
                 <div class="row">
 
-                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="50">
+                    <div class="col-xl-4 text-center">
                         <img src="public/img/proxi_renov_batiment.jpg" class="img-fluid p-4" alt="entreprise BTP">
                     </div>
 
                     <div class="col-xl-8 d-flex content">
                         <div class="row align-self-center gy-4">
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up">
+                            <div class="col-md-6 icon-box">
                                 <i class="ri-blaze-fill"></i>
                                 <div>
                                     <h3>Chauffage</h3>
@@ -335,7 +335,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-md-6 icon-box">
                                 <i class="ri-home-smile-2-line"></i>
                                 <div>
                                     <h3>Revêtement de sol</h3>
@@ -343,7 +343,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-md-6 icon-box">
                                 <i class="ri-lightbulb-flash-line"></i>
                                 <div>
                                     <h3>Electricité</h3>
@@ -351,7 +351,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-md-6 icon-box">
                                 <i class="ri-contrast-drop-2-line"></i>
                                 <div>
                                     <h3>Plomberie</h3>
@@ -359,7 +359,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-md-6 icon-box">
                                 <i class="ri-home-smile-2-line"></i>
                                 <div>
                                     <h3>Plaquiste</h3>
@@ -367,7 +367,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
+                            <div class="col-md-6 icon-box">
                                 <i class="ri-stack-line"></i>
                                 <div>
                                     <h3>Carrelage</h3>

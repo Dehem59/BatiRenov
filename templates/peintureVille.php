@@ -37,11 +37,11 @@ if (empty($codePostal)){
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1>Proxi Rénovation: Votre Artisan carreleur à <?php echo $ville . " (". $codePostal . ")";?></h1>
-                <h2>Une équipe d'expert du carrelage</h2>
+                <h1>Proxi Rénovation: Votre Artisan peintre à <?php echo $ville . " (". $codePostal . ")";?></h1>
+                <h2>Une équipe d'expert de la peinture bâtiment</h2>
                 <div>
                     <div class="text-center text-lg-start">
-                        <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                        <a href="tel:+33" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -49,7 +49,7 @@ if (empty($codePostal)){
                 </div>
             </div>
             <div class="col-lg-6 hero-img">
-                <img src="/public/img/carreleur_nord.jpg" class="img-fluid" alt="carreleur <?php echo $ville;?>">
+                <img src="/public/img/peinture_batiment.jpg" class="img-fluid" alt="peintre batiment <?php echo $ville;?>">
             </div>
         </div>
     </div>
@@ -66,23 +66,18 @@ if (empty($codePostal)){
                 <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="50">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
-                        <h3>Entreprise spécialisée dans la pose & dépose de carrelage et sol à <?php echo $ville;?>.</h3>
+                        <h3>Entreprise spécialisée dans la peinture en bâtiment à <?php echo $ville;?>.</h3>
                         <p>
-                            Soucieux d'apporter le meilleur pour nos clients, nous nous impliquons dans chaque chantier avec
-                            une expertise reconnue dans la pose et dépose de sol ainsi que tout carrelage.
-                            Confiez-nous votre projet de rénovation pour un résultat assuré et selon vos attentes.
+                        Bienvenue chez Proxi Rénovation, votre partenaire de confiance en peinture de bâtiment.
+                         Avec une expérience considérable dans l'industrie de la construction, nous sommes fiers de notre réputation en tant que
+                          professionnels de la peinture hautement qualifiés. Notre dévouement à la qualité, à la précision et à la satisfaction 
+                          du client fait de nous le choix idéal pour tous vos besoins en peinture de bâtiment
                         </p>
-                        <div class="text-center text-lg-start">
-                            <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>En savoir plus</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="50">
-                    <img src="/public/img/carrelage.jpg" class="img-fluid" alt="Entreprise Batiment Nord">
+                    <img src="/public/img/peintre_batiment.jpg" class="img-fluid" alt="Entreprise peinture Nord">
                 </div>
 
             </div>
@@ -138,14 +133,14 @@ if (empty($codePostal)){
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Nos compétences de carreleur</h2>
-                <p><i>"Revêtements Raffinés : Votre Sol, Notre Signature"</i></p>
+                <h2>Nos compétences de peintre en bâtiment à <?php echo $ville;?></h2>
+                <p><i>"Vos murs, Notre Signature"</i></p>
             </header>
 
             <div class="row">
 
                 <div class="col-lg-6">
-                    <img src="/public/img/carreleur.jpeg" class="img-fluid" alt="Rénovation maison nord">
+                    <img src="/public/img/peintre_interieur.jpg" class="img-fluid" alt="Peinture intérieur <?php echo $ville;?>">
                 </div>
 
                 <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
@@ -154,14 +149,14 @@ if (empty($codePostal)){
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Excellence artisanale</h3>
+                                <h3>Excellence en Peinture</h3>
                             </div>
                         </div>
 
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Matériaux de haute qualité</h3>
+                                <h3>Matériaux de qualité</h3>
                             </div>
                         </div>
 
@@ -175,7 +170,7 @@ if (empty($codePostal)){
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Service personnalisé</h3>
+                                <h3>Respect des Délais</h3>
                             </div>
                         </div>
 
@@ -192,36 +187,36 @@ if (empty($codePostal)){
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
                         <li>
-                            <a class="nav-link active" data-bs-toggle="pill" href="#carreleur">Carrelage de Sols et Murs</a>
+                            <a class="nav-link active" data-bs-toggle="pill" href="#peinture_interieur">Peinture Intérieure</a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#carrelage">Mosaïques et Motifs</a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#peinture_exterieur">Peinture Extérieure</a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#renov">Rénovations et Réparations</a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#revetement_sol">Revêtements de Sol</a>
                         </li>
                         <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#conseil">Conseil et Planification</a>
+                            <a class="nav-link" data-bs-toggle="pill" href="#renovation">Travaux de Rénovation</a>
                         </li>
                     </ul><!-- End Tabs -->
 
                     <!-- Tab Content -->
                     <div class="tab-content">
 
-                        <div class="tab-pane fade show active" id="carreleur">
-                            <p>Que ce soit pour une cuisine, une salle de bains, un salon ou un espace commercial, nous avons l'expertise pour créer des surfaces exceptionnelles.</p>
+                        <div class="tab-pane fade show active" id="peinture_interieur">
+                            <p>Nous transformons l'intérieur de votre bâtiment en un espace accueillant et élégant. De la préparation des surfaces à la finition impeccable, nous vous offrons une palette de couleurs infinie pour créer l'ambiance que vous recherchez.</p>
                         </div><!-- End Tab 1 Content -->
 
-                        <div class="tab-pane fade show" id="carrelage">
-                            <p>Ajoutez une touche artistique à vos espaces avec nos créations de mosaïques et motifs personnalisés.</p>
+                        <div class="tab-pane fade show" id="peinture_exterieur">
+                            <p>Protégez et embelli l'extérieur de votre bâtiment avec notre expertise en peinture extérieure. Nous utilisons des peintures résistantes aux intempéries pour garantir une durabilité exceptionnelle.</p>
                         </div><!-- End Tab 2 Content -->
 
-                        <div class="tab-pane fade show" id="renov">
-                            <p> Nous restaurons et rénovons également les anciens carrelages pour leur donner une nouvelle vie.</p>
+                        <div class="tab-pane fade show" id="revetement_sol">
+                            <p>Nous proposons également des services de revêtements de sol pour une transformation complète de vos espaces. Des sols en béton poli aux revêtements époxy, nous couvrons tous les besoins.</p>
                         </div><!-- End Tab 3 Content -->
 
-                        <div class="tab-pane fade show" id="conseil">
-                            <p>Besoin d'idées ou de conseils ? Notre équipe est là pour vous guider à chaque étape.</p>
+                        <div class="tab-pane fade show" id="renovation">
+                            <p>Besoin de rafraîchir l'apparence de votre bâtiment ? Nous sommes là pour des travaux de rénovation intérieure et extérieure, y compris la réparation des murs et la préparation des surfaces.</p>
                         </div><!-- End Tab 3 Content -->
 
                     </div>
@@ -229,7 +224,7 @@ if (empty($codePostal)){
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="/public/img/renov_interieur.jpg" class="img-fluid" alt="Plomberie - Chauffage - Carrelage - Peinture">
+                    <img src="/public/img/peinture_interieur_exterieur.jpg" class="img-fluid" alt="peintre intérieur extérieur à <?php echo $ville;?>">
                 </div>
 
             </div><!-- End Feature Tabs -->
@@ -252,44 +247,43 @@ if (empty($codePostal)){
                         <div class="accordion-item">
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                    Quels types de carrelage proposez-vous ?
+                                Quels types de projets de peinture réalisez-vous ?
                                 </button>
                             </h3>
                             <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body">
-                                Nous proposons une large gamme de carrelages, y compris les carrelages en céramique, en porcelaine, en marbre, en granit, en pierre naturelle, en ardoise, et bien d'autres encore. Notre équipe peut vous guider dans le choix du matériau et du style qui conviennent le mieux à votre projet.
-                                </div>
+                                Notre équipe expérimentée effectue une variété de projets de peinture, notamment la peinture intérieure, la peinture extérieure, la rénovation de façades, la peinture de murs, de plafonds, et bien plus encore. Qu'il s'agisse de résidentiel ou commercial, nous sommes là pour vous.                                </div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                Comment puis-je obtenir un devis pour mon projet ?
+                                Utilisez-vous des peintures respectueuses de l'environnement ?
                                 </button>
                             </h3>
                             <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body">
-                                Pour obtenir un devis gratuit, vous pouvez nous contacter en remplissant le formulaire de demande de devis sur notre site web ou en nous appelant au [numéro de téléphone]. Nous vous fournirons rapidement un devis détaillé en fonction de vos besoins.
-                                </div>
+                                Oui, nous sommes engagés dans l'utilisation de produits respectueux de l'environnement. Nous proposons des options de peinture écologique à nos clients qui souhaitent réduire leur empreinte environnementale.                                </div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                Combien coûte en moyenne la pose de carrelage à <?php echo $ville;?> ?
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                Combien coûte en moyenne un peintre en bâtiment à <?php echo $ville;?> ?
                                 </button>
                             </h3>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body">
-                                Le coût de la pose de carrelage peut varier considérablement en fonction de plusieurs facteurs, notamment la région géographique, la complexité du projet, le type de carrelage, la taille de la surface à carreler, l'état du sous-plancher, et le coût de la main-d'œuvre. Cependant, je peux vous donner une estimation générale des coûts moyens de pose de carrelage :
-Coût par mètre carré : En règle générale, les carreleurs facturent par mètre carré de carrelage installé. Le coût peut varier de 20 € à 100 € ou plus par mètre carré, en fonction des facteurs mentionnés ci-dessus.
-Type de carrelage : Le type de carrelage que vous choisissez peut avoir un impact significatif sur le coût. Les carreaux en céramique sont généralement moins chers que les carreaux en marbre ou en granit, par exemple.
-Complexité du projet : Si le projet implique des motifs complexes, des découpes spéciales ou des mosaïques personnalisées, le coût de la main-d'œuvre peut être plus élevé.
-Préparation du sous-plancher : Si le sous-plancher nécessite des réparations ou une préparation particulière avant la pose du carrelage, cela peut également ajouter aux coûts.
-Main-d'œuvre : Le coût de la main-d'œuvre varie d'une région à l'autre. Les carreleurs professionnels facturent généralement un tarif horaire ou un tarif forfaitaire en fonction de la complexité du projet.
-Frais accessoires : N'oubliez pas de prendre en compte d'autres frais liés au projet, tels que les matériaux de colle à carrelage, les coulis, les seuils, les plinthes, et les travaux de finition.                                </div>
+                                La région géographique : Le coût de la main-d'œuvre varie d'une région à l'autre en raison des différences de coût de la vie et de la demande locale. Les grandes villes peuvent avoir des tarifs plus élevés que les zones rurales.
+La taille du projet : Le coût total dépendra de la taille de la zone à peindre. Plus la surface est grande, plus le coût sera élevé. Les peintres facturent généralement au mètre carré ou au pied carré.
+Le type de peinture : Les peintures de qualité supérieure coûtent généralement plus cher, mais elles peuvent offrir une meilleure durabilité et une meilleure apparence à long terme. Le choix de la peinture peut influencer le coût total.
+L'état des surfaces : Si les surfaces nécessitent des préparations spéciales, telles que le décapage, le ponçage, le rebouchage de trous ou la réparation de fissures, cela peut entraîner des coûts supplémentaires.
+La compétence du peintre : Les peintres hautement qualifiés avec une expérience considérable peuvent facturer des tarifs plus élevés que les peintres moins expérimentés.
+La complexité du projet : Des projets plus complexes, tels que la peinture de surfaces texturées, la création de motifs ou la coordination de plusieurs couleurs, peuvent nécessiter plus de temps et de compétences, ce qui peut augmenter le coût.
+Les coûts accessoires : N'oubliez pas de prendre en compte d'autres coûts liés au projet, tels que les fournitures de peinture, les outils, les échafaudages (si nécessaires), et les frais de nettoyage.        
+                     </div>
                             </div>
                         </div>
                     </div>

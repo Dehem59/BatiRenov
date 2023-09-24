@@ -8,6 +8,8 @@ const TEMPLATES = [
     "peintureVille" => "templates/peintureVille.php",
     "carrelageVille" => "templates/carrelageVille.php",
     "plomberieVille" => "templates/plomberieVille.php",
+    "maconnerieVille" => "templates/maconnerieVille.php",
+    "zone" => "templates/zoneIntervention.php",
     "notFound" => "templates/not_found.html"
 ];
 

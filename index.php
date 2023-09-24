@@ -13,8 +13,9 @@ use const Config\VILLES;
 use View\HomeView;
 use View\CarrelageVilleView;
 use View\PeintureVilleView;
+use View\MaconnerieVilleView;
 use View\NotFoundView;
-
+use View\ZoneInterventionView;
 
 $ROUTES = [
     [
@@ -36,7 +37,13 @@ $ROUTES = [
         "pattern" => "/^\/serrurerie\/serrurier-(?<ville>[\w\-]+)\/?$/", "class" => PeintureVilleView::class
     ],
     [
+        "pattern" => "/^\/maconnerie\/macon-(?<ville>[\w\-]+)\/?$/", "class" => MaconnerieVilleView::class
+    ],
+    [
         "pattern" => "/devis-en-ligne/", "class" => DevisEnLigneView::class
+    ],
+    [
+        "pattern" => "/zone-intervention/", "class" => ZoneInterventionView::class
     ],
     [
         "pattern" => "/contact/", "class" => ContactView::class

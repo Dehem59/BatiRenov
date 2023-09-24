@@ -41,7 +41,7 @@ if (empty($codePostal)){
                 <h2>Une équipe d'expert du carrelage</h2>
                 <div>
                     <div class="text-center text-lg-start">
-                        <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                        <a href="tel:+33" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -60,10 +60,10 @@ if (empty($codePostal)){
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
             <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
                         <h3>Entreprise spécialisée dans la pose & dépose de carrelage et sol à <?php echo $ville;?>.</h3>
@@ -72,17 +72,11 @@ if (empty($codePostal)){
                             une expertise reconnue dans la pose et dépose de sol ainsi que tout carrelage.
                             Confiez-nous votre projet de rénovation pour un résultat assuré et selon vos attentes.
                         </p>
-                        <div class="text-center text-lg-start">
-                            <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>En savoir plus</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="50">
-                    <img src="/public/img/carrelage.jpg" class="img-fluid" alt="Entreprise Batiment Nord">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="/public/img/carrelage.jpg" class="img-fluid" alt="Entreprise Carrelage Nord">
                 </div>
 
             </div>
@@ -93,11 +87,11 @@ if (empty($codePostal)){
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <div class="row gy-4">
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-emoji-smile"></i>
                         <div>
@@ -107,7 +101,7 @@ if (empty($codePostal)){
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
                         <div>
@@ -117,7 +111,7 @@ if (empty($codePostal)){
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
@@ -135,7 +129,7 @@ if (empty($codePostal)){
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <header class="section-header">
                 <h2>Nos compétences de carreleur</h2>
@@ -151,28 +145,28 @@ if (empty($codePostal)){
                 <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
                     <div class="row align-self-center gy-4">
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Excellence artisanale</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Matériaux de haute qualité</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>SAV réactif</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Service personnalisé</h3>
@@ -185,7 +179,7 @@ if (empty($codePostal)){
             </div> <!-- / row -->
 
             <!-- Feature Tabs -->
-            <div class="row feture-tabs" data-aos="fade-up">
+            <div class="row feture-tabs">
                 <div class="col-lg-6">
                     <h3>Pourquoi faire appel à nos artisans carreleurs experts à <?php echo $ville;?> ?</h3>
 
@@ -246,7 +240,7 @@ if (empty($codePostal)){
             </header>
 
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8 mx-auto">
                     <!-- F.A.Q List 1-->
                     <div class="accordion accordion-flush" id="faqlist1">
                         <div class="accordion-item">
@@ -277,11 +271,11 @@ if (empty($codePostal)){
 
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                                 Combien coûte en moyenne la pose de carrelage à <?php echo $ville;?> ?
                                 </button>
                             </h3>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                 <div class="accordion-body">
                                 Le coût de la pose de carrelage peut varier considérablement en fonction de plusieurs facteurs, notamment la région géographique, la complexité du projet, le type de carrelage, la taille de la surface à carreler, l'état du sous-plancher, et le coût de la main-d'œuvre. Cependant, je peux vous donner une estimation générale des coûts moyens de pose de carrelage :
 Coût par mètre carré : En règle générale, les carreleurs facturent par mètre carré de carrelage installé. Le coût peut varier de 20 € à 100 € ou plus par mètre carré, en fonction des facteurs mentionnés ci-dessus.

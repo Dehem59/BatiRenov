@@ -8,3 +8,5 @@ include_once "src/views/NotFoundView.php";
 include_once "src/views/ContactView.php";
 include_once "src/views/plomberie/PlomberieVilleView.php";
 include_once "src/views/DevisEnLigneView.php";
+include_once "src/views/maconnerie/MaconnerieVilleView.php";
+include_once "src/views/ZoneInterventionView.php";
