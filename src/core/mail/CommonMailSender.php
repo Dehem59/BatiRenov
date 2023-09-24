@@ -27,24 +27,12 @@ class CommonMailSender implements BaseMailSender
     }
 
     static function prepareHeaders(): array {
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $headers = "MIME-Version: 1.0" . "\r\n"; 
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
+        $headers .= 'From: Uber Artisan <uber.artisans@gmail.com>' . "\r\n";
 
-        // Additional headers
-        $headers .= 'From: '.FROM_MAIL["email"]."\r\n".
-            'Reply-To: '.FROM_MAIL["email"]."\r\n" .
-            'X-Mailer: PHP/' . phpversion();
-
-//        foreach (MAILS_LIST as $index => $info){
-//            if (array_key_last(MAILS_LIST) == $index){
-//                $to .= $info["nom"] . ' <' . $info["email"] . '>';
-//            }
-//            else{
-//                $to .= $info["nom"] . ' <' . $info["email"] . '>,';
-//            }
-//        }
         return [
-            "headers" => $headers, "to" => MAIL_TO
+            "headers" => $headers, "to" => "uber.artisans@gmail.com"
         ];
     }
 

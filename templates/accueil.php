@@ -33,7 +33,7 @@
                 <h2>Une équipe d'expert du bâtiment: carrelage - plomberie - platrerie et peinture</h2>
                 <div>
                     <div class="text-center text-lg-start">
-                        <a href="tel:+33" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                        <a href="tel:+33756951958" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>

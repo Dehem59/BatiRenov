@@ -41,7 +41,7 @@ if (empty($codePostal)){
                 <h2>Une équipe d'expert de la peinture bâtiment</h2>
                 <div>
                     <div class="text-center text-lg-start">
-                        <a href="tel:+33" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                        <a href="tel:+33756951958" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -60,10 +60,10 @@ if (empty($codePostal)){
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
             <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
                         <h3>Entreprise spécialisée dans la peinture en bâtiment à <?php echo $ville;?>.</h3>
@@ -76,7 +76,7 @@ if (empty($codePostal)){
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="50">
+                <div class="col-lg-6 d-flex align-items-center">
                     <img src="/public/img/peintre_batiment.jpg" class="img-fluid" alt="Entreprise peinture Nord">
                 </div>
 
@@ -88,7 +88,7 @@ if (empty($codePostal)){
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <div class="row gy-4">
 
@@ -130,7 +130,7 @@ if (empty($codePostal)){
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <header class="section-header">
                 <h2>Nos compétences de peintre en bâtiment à <?php echo $ville;?></h2>
@@ -146,28 +146,28 @@ if (empty($codePostal)){
                 <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
                     <div class="row align-self-center gy-4">
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Excellence en Peinture</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Matériaux de qualité</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>SAV réactif</h3>
                             </div>
                         </div>
 
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="50">
+                        <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
                                 <h3>Respect des Délais</h3>
@@ -180,7 +180,7 @@ if (empty($codePostal)){
             </div> <!-- / row -->
 
             <!-- Feature Tabs -->
-            <div class="row feture-tabs" data-aos="fade-up">
+            <div class="row feture-tabs">
                 <div class="col-lg-6">
                     <h3>Pourquoi faire appel à nos artisans carreleurs experts à <?php echo $ville;?> ?</h3>
 

@@ -23,7 +23,7 @@
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq mt-5" aria-label="breadcrumb">
 
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
             <header class="section-header">
                 <h1>Entreprise du bâtiment généraliste: Notre zone d'intervention</h1>

@@ -36,7 +36,7 @@ if (empty($codePostal)){
                 <h2>Une équipe de maçon expert</h2>
                 <div>
                     <div class="text-center text-lg-start">
-                        <a href="tel:+33" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                        <a href="tel:+33756951958" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                             <span>Prendre rendez-vous</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -291,7 +291,7 @@ if (empty($codePostal)){
 
             <header class="section-header">
                 <h2>Avis Clients</h2>
-                <p>Ce que nos clients pensent de notre entreprise de carrelage</p>
+                <p>Ce que nos clients pensent de notre entreprise de maçonnerie</p>
             </header>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="50">
@@ -367,7 +367,10 @@ if (empty($codePostal)){
 
     </section><!-- End Testimonials Section -->
 
-
+    <?php
+        include_once "commons/base_contact.html";
+    ?>
+</main>
 <?php
 
 include_once "commons/footer.html";
