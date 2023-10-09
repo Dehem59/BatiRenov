@@ -23,13 +23,14 @@ class CommonMailSender implements BaseMailSender
         foreach ($parameters as $paramName => $value){
             $html .= "<li>$paramName: $value</li>";
         }
-        return $html."</ul>";
+        $html .= "</ul>";
+        return $html;
     }
 
     static function prepareHeaders(): array {
-        $headers = "MIME-Version: 1.0" . "\r\n"; 
+        $headers = "From: Uber Artisan<uber.artisans@gmail.com>\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
-        $headers .= 'From: Uber Artisan <uber.artisans@gmail.com>' . "\r\n";
 
         return [
             "headers" => $headers, "to" => "uber.artisans@gmail.com"
@@ -46,7 +47,7 @@ class CommonMailSender implements BaseMailSender
             $mailElements = $this->prepareHeaders();
             $mailTemplate = $this->prepareMailTemplate($parameters);
             $sujet = $this->getSubject();
-            if (mail($mailElements["to"], $sujet, $mailTemplate, $mailElements["headers"])){
+            if (mail($mailElements["to"], $sujet, $mailTemplate, $mailElements["info"])){
                 return True;
             }
             else{

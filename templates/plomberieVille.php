@@ -5,6 +5,12 @@ if (empty($ville)){
 if (empty($codePostal)){
     $codePostal = "59000";
 }
+
+if ($ville == "Nord"){
+    $ville = "dans le Nord";
+} else {
+    $ville = "à ". $ville;
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,8 +19,8 @@ if (empty($codePostal)){
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Plombier à <?php echo $ville;?> (<?php echo $codePostal; ?>)</title>
-    <meta content="Proxi Rénovation est une entreprise de plomberie à <?php echo $ville;?> pour la rénovation & installation de plomberie."
+    <title>Plombier <?php echo $ville;?> (<?php echo $codePostal; ?>)</title>
+    <meta content="Proxi Rénovation est une entreprise de plomberie <?php echo $ville;?> pour la rénovation & installation de plomberie."
           name="description">
     <meta content="rénovation batiment, batiment rénovation, construction, rénovation d'intérieur" name="keywords">
 
@@ -40,16 +46,16 @@ include_once "commons/header.html";
 
             <ol>
                 <li><a href="/">Accueil</a></li>
-                <li>Plombier à <?php echo $ville;?></li>
+                <li>Plombier <?php echo $ville;?></li>
             </ol>
-            <h1>Plombier à <?php echo $ville;?>: Rénovation & Installation de Plomberie</h1>
+            <h1>Plombier <?php echo $ville;?>: Rénovation & Installation de Plomberie</h1>
 
         </div>
     </section><!-- End Breadcrumbs -->
 
     <section class="inner-page">
         <div class="container">
-            <h2 class="text-center pb-3">Votre artisan plombier à <?php echo $ville;?></h2>
+            <h2 class="text-center pb-3">Votre artisan plombier <?php echo $ville;?></h2>
             <div class="row justify-content-between">
                 <div class="col-md-3 mt-2">
                     <div class="card h-100">
@@ -62,7 +68,7 @@ include_once "commons/header.html";
                                 <i class="ri-home-gear-fill"></i>
                             </div>
                             <p>
-                                Votre plombier à <?php echo $ville;?> intervient à votre convenance pour tous dépannages
+                                Votre plombier <?php echo $ville;?> intervient à votre convenance pour tous dépannages
                                 de plomberie, comme la réparation et détection de fuite mais aussi réparation
                                 d'urgence en plomberie.
                             </p>
@@ -97,7 +103,7 @@ include_once "commons/header.html";
                                 <i class="ri-drop-fill"></i>
                             </div>
                             <p>
-                                Service de débouchage d'urgence à <?php echo "$ville ($codePostal)";?>
+                                Service de débouchage d'urgence <?php echo "$ville ($codePostal)";?>
                             </p>
                         </div>
                     </div>

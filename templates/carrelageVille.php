@@ -5,6 +5,12 @@ if (empty($ville)){
 if (empty($codePostal)){
     $codePostal = "59000";
 }
+
+if ($ville == "Nord"){
+    $ville = "dans le Nord";
+} else {
+    $ville = "à ". $ville;
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,14 +19,92 @@ if (empty($codePostal)){
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Proxi Rénovation: Entreprise de carrelage à <?php echo $ville;?></title>
-    <meta content="Proxi Rénovation est une entreprise experte dans la pose de carrelage, carreleur à <?php echo $ville;?>."
+    <title>Proxi Rénovation: Entreprise de carrelage <?php echo $ville;?></title>
+    <meta content="Proxi Rénovation est une entreprise experte dans la pose de carrelage, carreleur <?php echo $ville;?>."
           name="description">
     <meta content="carrelage, carreleur <?php echo $ville;?>" name="keywords">
 
    <?php
         include_once "commons/common_css.html";
     ?>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "<?php echo $ville;?>",
+    "addressRegion": "Nord",
+    "streetAddress": "1 rue Nationale"
+  },
+  "description": "Proxi Rénovation <?php echo $ville;?> est une entreprise de carrelage <?php echo $ville;?> <?php echo $codePostal;?>.
+  Artisan carreleur professionnel pour toute pose de carrelage.",
+  "image": "https://proxi-renovation.fr/public/img/favicon.png",
+  "name": "Proxi Rénovation: artisan carreleur <?php echo $ville;?>",
+  "priceRange": "€",
+  "telephone": "+33756951958"
+}
+</script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebPage",
+    "name": "Entreprise de carrelage <?php echo $ville;?>",
+    "author": {
+      "@type": "Person",
+      "name": "Dehem Victor"
+    },
+    "datePublished": "2021-01-02",
+    "description": "Trouvez un carreleur qualifié <?php echo $ville;?> pour vos travaux de carrelage."
+  }
+  </script>  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://proxi-renovation.fr/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://proxi-renovation.fr/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Proxi Rénovation",
+          "item": "https://proxi-renovation.fr/"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Carrelage",
+          "item": "https://proxi-renovation.fr/carrelage/"
+        },{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Carreleur <?php echo $ville;?>",
+          "item":"https://proxi-renovation.fr<?php echo $_SERVER['REQUEST_URI'];?>"
+        }]
+      }
+      </script> 
+
+      <script type="application/ld+json">{
+    "@context": "https://schema.org/",
+    "@type": "LocalBusiness",
+    "name": "Entreprise carrelage <?php echo $ville;?>",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "ratingCount": "227"
+    }
+}</script>
+
 </head>
 
 <body>
@@ -37,7 +121,7 @@ if (empty($codePostal)){
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1>Proxi Rénovation: Votre Artisan carreleur à <?php echo $ville . " (". $codePostal . ")";?></h1>
+                <h1>Proxi Rénovation: Votre Artisan carreleur <?php echo $ville . " (". $codePostal . ")";?></h1>
                 <h2>Une équipe d'expert du carrelage</h2>
                 <div>
                     <div class="text-center text-lg-start">
@@ -66,7 +150,7 @@ if (empty($codePostal)){
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
-                        <h3>Entreprise spécialisée dans la pose & dépose de carrelage et sol à <?php echo $ville;?>.</h3>
+                        <h3>Entreprise spécialisée dans la pose & dépose de carrelage et sol <?php echo $ville;?>.</h3>
                         <p>
                             Soucieux d'apporter le meilleur pour nos clients, nous nous impliquons dans chaque chantier avec
                             une expertise reconnue dans la pose et dépose de sol ainsi que tout carrelage.
@@ -87,9 +171,9 @@ if (empty($codePostal)){
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container">
+        <div class="container bg-sectioned">
 
-            <div class="row gy-4">
+            <div class="row p-4">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="count-box">
@@ -181,7 +265,7 @@ if (empty($codePostal)){
             <!-- Feature Tabs -->
             <div class="row feture-tabs">
                 <div class="col-lg-6">
-                    <h3>Pourquoi faire appel à nos artisans carreleurs experts à <?php echo $ville;?> ?</h3>
+                    <h3>Pourquoi faire appel à nos artisans carreleurs experts <?php echo $ville;?> ?</h3>
 
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
@@ -272,7 +356,7 @@ if (empty($codePostal)){
                         <div class="accordion-item">
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                Combien coûte en moyenne la pose de carrelage à <?php echo $ville;?> ?
+                                Combien coûte en moyenne la pose de carrelage <?php echo $ville;?> ?
                                 </button>
                             </h3>
                             <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">

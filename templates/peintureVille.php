@@ -5,6 +5,12 @@ if (empty($ville)){
 if (empty($codePostal)){
     $codePostal = "59000";
 }
+
+if ($ville == "Nord"){
+    $ville = "dans le Nord";
+} else {
+    $ville = "à ". $ville;
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,14 +19,91 @@ if (empty($codePostal)){
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Proxi Rénovation: Entreprise de peinture à <?php echo $ville;?></title>
-    <meta content="Proxi Rénovation est une entreprise experte en peinture de mur et sol à <?php echo $ville;?>."
+    <title>Proxi Rénovation: Entreprise de peinture <?php echo $ville;?></title>
+    <meta content="Proxi Rénovation est une entreprise experte en peinture de mur et sol <?php echo $ville;?>."
           name="description">
     <meta content="peinture, peintre <?php echo $ville;?>" name="keywords">
 
    <?php
         include_once "commons/common_css.html";
     ?>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "<?php echo $ville;?>",
+    "addressRegion": "Nord",
+    "streetAddress": "1 rue Nationale"
+  },
+  "description": "Proxi Rénovation <?php echo $ville;?> est une entreprise de peinture <?php echo $ville;?> <?php echo $codePostal;?>.
+  Artisan peintre professionnel pour tous travaux de peinture, particulier et industriel.",
+  "image": "https://proxi-renovation.fr/public/img/favicon.png",
+  "name": "Proxi Rénovation: artisan peintre <?php echo $ville;?>",
+  "priceRange": "€",
+  "telephone": "+33756951958"
+}
+</script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebPage",
+    "name": "Entreprise de peinture <?php echo $ville;?>",
+    "author": {
+      "@type": "Person",
+      "name": "Dehem Victor"
+    },
+    "datePublished": "2021-01-02",
+    "description": "Trouvez un peintre qualifié <?php echo $ville;?> pour vos travaux de peinture, intérieur ou extérieur et industriel."
+  }
+  </script>  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://proxi-renovation.fr/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://proxi-renovation.fr/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Proxi Rénovation",
+          "item": "https://proxi-renovation.fr/"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Peinture",
+          "item": "https://proxi-renovation.fr/peinture/"
+        },{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Artisan Peintre <?php echo $ville;?>",
+          "item":"https://proxi-renovation.fr<?php echo $_SERVER['REQUEST_URI'];?>"
+        }]
+      }
+      </script> 
+
+      <script type="application/ld+json">{
+    "@context": "https://schema.org/",
+    "@type": "LocalBusiness",
+    "name": "Entreprise peinture <?php echo $ville;?>",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "ratingCount": "227"
+    }
+}</script>
 </head>
 
 <body>
@@ -37,7 +120,7 @@ if (empty($codePostal)){
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1>Proxi Rénovation: Votre Artisan peintre à <?php echo $ville . " (". $codePostal . ")";?></h1>
+                <h1>Proxi Rénovation: Votre Artisan peintre <?php echo $ville . " (". $codePostal . ")";?></h1>
                 <h2>Une équipe d'expert de la peinture bâtiment</h2>
                 <div>
                     <div class="text-center text-lg-start">
@@ -66,7 +149,7 @@ if (empty($codePostal)){
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <div class="content">
                         <h2>Proxi Rénovation: Qui sommes-nous ?</h2>
-                        <h3>Entreprise spécialisée dans la peinture en bâtiment à <?php echo $ville;?>.</h3>
+                        <h3>Entreprise spécialisée dans la peinture en bâtiment <?php echo $ville;?>.</h3>
                         <p>
                         Bienvenue chez Proxi Rénovation, votre partenaire de confiance en peinture de bâtiment.
                          Avec une expérience considérable dans l'industrie de la construction, nous sommes fiers de notre réputation en tant que
@@ -88,11 +171,11 @@ if (empty($codePostal)){
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container">
+        <div class="container bg-sectioned">
 
-            <div class="row gy-4">
+            <div class="row p-4">
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-emoji-smile"></i>
                         <div>
@@ -102,7 +185,7 @@ if (empty($codePostal)){
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
                         <div>
@@ -112,7 +195,7 @@ if (empty($codePostal)){
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
@@ -133,7 +216,7 @@ if (empty($codePostal)){
         <div class="container">
 
             <header class="section-header">
-                <h2>Nos compétences de peintre en bâtiment à <?php echo $ville;?></h2>
+                <h2>Nos compétences de peintre en bâtiment <?php echo $ville;?></h2>
                 <p><i>"Vos murs, Notre Signature"</i></p>
             </header>
 
@@ -182,7 +265,7 @@ if (empty($codePostal)){
             <!-- Feature Tabs -->
             <div class="row feture-tabs">
                 <div class="col-lg-6">
-                    <h3>Pourquoi faire appel à nos artisans carreleurs experts à <?php echo $ville;?> ?</h3>
+                    <h3>Pourquoi faire appel à nos artisans carreleurs experts <?php echo $ville;?> ?</h3>
 
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
@@ -224,7 +307,7 @@ if (empty($codePostal)){
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="/public/img/peinture_interieur_exterieur.jpg" class="img-fluid" alt="peintre intérieur extérieur à <?php echo $ville;?>">
+                    <img src="/public/img/peinture_interieur_exterieur.jpg" class="img-fluid" alt="peintre intérieur extérieur <?php echo $ville;?>">
                 </div>
 
             </div><!-- End Feature Tabs -->
@@ -271,7 +354,7 @@ if (empty($codePostal)){
                         <div class="accordion-item">
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                Combien coûte en moyenne un peintre en bâtiment à <?php echo $ville;?> ?
+                                Combien coûte en moyenne un peintre en bâtiment <?php echo $ville;?> ?
                                 </button>
                             </h3>
                             <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">

@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
                 <h1>Proxi Rénovation: Construction & Rénovation de Bâtiment dans le Nord</h1>
-                <h2>Une équipe d'expert du bâtiment: carrelage - plomberie - platrerie et peinture</h2>
+                <h2>Entreprise du bâtiment experte et professionnelle, tout corps de métiers</h2>
                 <div>
                     <div class="text-center text-lg-start">
                         <a href="tel:+33756951958" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -79,9 +79,9 @@
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container">
+        <div class="container bg-sectioned">
 
-            <div class="row gy-4">
+            <div class="row p-4">
 
                 <div class="col-lg-3 col-md-6">
                     <div class="count-box">
@@ -188,7 +188,12 @@
                                 <h3>Plaquiste</h3>
                             </div>
                         </div>
-                        
+                        <div class="col-md-6">
+                            <div class="feature-box d-flex align-items-center">
+                                <i class="bi bi-check"></i>
+                                <h3>Façade</h3>
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
@@ -212,6 +217,12 @@
                         </li>
                         <li>
                             <a class="nav-link" data-bs-toggle="pill" href="#carrelage">Carrelage</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" data-bs-toggle="pill" href="#carrelage">Maçonnerie</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" data-bs-toggle="pill" href="#carrelage">Façade</a>
                         </li>
                         <li>
                             <a class="nav-link" data-bs-toggle="pill" href="#plaquiste">Plaquiste</a>
@@ -309,16 +320,16 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="public/img/renov_interieur.jpg" class="img-fluid" alt="Plomberie - Chauffage - Carrelage - Peinture">
+                    <img src="public/img/renov_interieur.jpg" class="img-fluid mt-2" alt="Plomberie - Chauffage - Carrelage - Peinture">
                 </div>
 
             </div><!-- End Feature Tabs -->
 
             <!-- Feature Icons -->
-            <div class="row feature-icons">
-                <h2 class="text-center">Entreprise tout corps de bâtiment dans le nord</h2>
+            <div class="row feature-icons bg-lighter">
+                <h2 class="text-center mt-2">Entreprise tout corps de métier bâtiment dans le nord</h2>
 
-                <div class="row">
+                <div class="row text-white">
 
                     <div class="col-xl-4 text-center">
                         <img src="public/img/proxi_renov_batiment.jpg" class="img-fluid p-4" alt="entreprise BTP">
@@ -358,6 +369,30 @@
                                     <p>Installation & Dépannage de plomberie</p>
                                 </div>
                             </div>
+                            
+                            <div class="col-md-6 icon-box">
+                                <i class="ri-home-smile-2-line"></i>
+                                <div>
+                                    <h3>Maçonnerie</h3>
+                                    <p>Tous travaux de maçonnerie, construction & rénovation</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 icon-box">
+                                <i class="ri-stack-line"></i>
+                                <div>
+                                    <h3>Carrelage</h3>
+                                    <p>Pose de carrelage & revêtement de sol</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 icon-box">
+                                <i class="ri-building-3-line"></i>
+                                <div>
+                                    <h3>Façade</h3>
+                                    <p>Ravalement de façade et projetage</p>
+                                </div>
+                            </div>
 
                             <div class="col-md-6 icon-box">
                                 <i class="ri-home-smile-2-line"></i>
@@ -367,13 +402,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 icon-box">
-                                <i class="ri-stack-line"></i>
-                                <div>
-                                    <h3>Carrelage</h3>
-                                    <p>Pose de carrelage & revêtement de sol</p>
-                                </div>
-                            </div>
+                            
 
                         </div>
                     </div>
