@@ -20,7 +20,9 @@ if ($ville == "Nord"){
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Proxi Rénovation: Entreprise de carrelage <?php echo $ville;?></title>
-    <meta content="Proxi Rénovation est une entreprise experte dans la pose de carrelage, carreleur <?php echo $ville;?>."
+    <meta content="Vous cherchez un carrelage pour votre maison ou votre appartement <?php echo $ville;?> ? 
+    Proxi Rénovation est l'expert du carrelage <?php echo $ville;?>. Nous vous proposons un large choix de carrelages de qualité, au meilleur prix. 
+Nos carreleurs professionnels vous accompagnent dans votre projet de rénovation, de la conception à la pose. Contactez-nous dès aujourd'hui pour un devis gratuit !"
           name="description">
     <meta content="carrelage, carreleur <?php echo $ville;?>" name="keywords">
 
@@ -175,17 +177,17 @@ if ($ville == "Nord"){
 
             <div class="row p-4">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-emoji-smile"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="145" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Clients Satisfait</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
                         <div>
@@ -195,7 +197,17 @@ if ($ville == "Nord"){
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-gear" style="color: #15be56;"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Corps de métier</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>

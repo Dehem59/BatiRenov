@@ -20,7 +20,9 @@ if ($ville == "Nord"){
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Proxi Rénovation: Entreprise de peinture <?php echo $ville;?></title>
-    <meta content="Proxi Rénovation est une entreprise experte en peinture de mur et sol <?php echo $ville;?>."
+    <meta content="Vous souhaitez repeindre votre maison ou votre appartement <?php echo $ville;?> ? Proxi Rénovation est l'entreprise de peinture qu'il vous faut.
+     Nous vous proposons un service de peinture complet, de la conception à la réalisation. 
+     Nos peintres professionnels vous accompagnent dans votre projet, de la sélection des couleurs à la pose de la peinture. Contactez-nous dès aujourd'hui pour un devis gratuit !"
           name="description">
     <meta content="peinture, peintre <?php echo $ville;?>" name="keywords">
 
@@ -169,23 +171,23 @@ if ($ville == "Nord"){
     </section><!-- End About Section -->
 
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
         <div class="container bg-sectioned">
 
             <div class="row p-4">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-emoji-smile"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="145" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Clients Satisfait</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
                         <div>
@@ -195,7 +197,17 @@ if ($ville == "Nord"){
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-gear" style="color: #15be56;"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Corps de métier</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
@@ -209,7 +221,6 @@ if ($ville == "Nord"){
 
         </div>
     </section><!-- End Counts Section -->
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 

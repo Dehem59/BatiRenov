@@ -87,7 +87,7 @@
                     <div class="count-box">
                         <i class="bi bi-emoji-smile"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="145" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Clients Satisfait</p>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                     <div class="count-box">
                         <i class="bi bi-gear" style="color: #15be56;"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Corps de métier</p>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
             </div><!-- End Feature Tabs -->
 
             <!-- Feature Icons -->
-            <div class="row feature-icons bg-lighter">
+            <div class="row feature-icons" id="service_detail_batiment">
                 <h2 class="text-center mt-2">Entreprise tout corps de métier bâtiment dans le nord</h2>
 
                 <div class="row text-white">
@@ -340,7 +340,7 @@
 
                             <div class="col-md-6 icon-box">
                                 <i class="ri-blaze-fill"></i>
-                                <div>
+                                <div class="text-center">
                                     <h3>Chauffage</h3>
                                     <p>Installation & Dépannage de chauffage</p>
                                 </div>
