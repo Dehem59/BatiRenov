@@ -23,6 +23,7 @@ if ($ville == "Nord"){
     <meta content="Proxi Rénovation est une entreprise de plomberie <?php echo $ville;?> pour la rénovation & installation de plomberie."
           name="description">
     <meta content="rénovation batiment, batiment rénovation, construction, rénovation d'intérieur" name="keywords">
+    <link rel="canonical" href="https://proxi-renovation.fr<?php echo $_SERVER['REQUEST_URI'];?>" />
 
     <?php
     include_once "commons/common_css.html";
@@ -37,19 +38,41 @@ include_once "commons/header.html";
 ?>
 
 
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <h1>Proxi Rénovation: Votre Artisan Plombier <?php echo $ville . " (". $codePostal . ")";?></h1>
+                <h2>Expert en installation et dépannage de plomberie</h2>
+                <div>
+                    <div class="text-center text-lg-start">
+                        <a href="tel:+33756951958" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span>Prendre rendez-vous</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 hero-img">
+                <img src="/public/img/conseils-plombier.jpg" class="img-fluid" alt="plombier <?php echo $ville;?>">
+            </div>
+        </div>
+    </div>
+
+</section><!-- End Hero -->
+
 
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
         <div class="container">
-
             <ol>
                 <li><a href="/">Accueil</a></li>
                 <li>Plombier <?php echo $ville;?></li>
             </ol>
-            <h1>Plombier <?php echo $ville;?>: Rénovation & Installation de Plomberie</h1>
-
         </div>
     </section><!-- End Breadcrumbs -->
 

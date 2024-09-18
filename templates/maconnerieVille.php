@@ -23,6 +23,7 @@ if ($ville == "Nord"){
     <meta content="Découvrez notre entreprise de maçonnerie <?php echo $ville;?>. Experts en construction, rénovation et restauration. Qualité artisanale et durabilité garanties. Contactez-nous dès maintenant !"
           name="description">
     <meta content="rénovation batiment, batiment rénovation, construction, rénovation d'intérieur" name="keywords">
+    <link rel="canonical" href="https://proxi-renovation.fr<?php echo $_SERVER['REQUEST_URI'];?>" />
 
     <?php include_once "commons/common_css.html";?>
 
@@ -202,7 +203,7 @@ if ($ville == "Nord"){
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Experts à votre service</p>
                         </div>
                     </div>

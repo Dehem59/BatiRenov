@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0,maximum-scale=1.0" name="viewport">
 
     <title>Proxi Rénovation - Expert de la rénovation tout corps du bâtiment</title>
     <meta content="Proxi Rénovation est une entreprise experte dans la rénovation de bâtiment: carrelage, plomberie, chauffage, peinture dans le nord de la France."
           name="description">
     <meta content="rénovation batiment, batiment rénovation, construction, rénovation d'intérieur" name="keywords">
+    <link rel="canonical" href="https://proxi-renovation.fr" />
 
    <?php
         include_once "commons/common_css.html";
@@ -117,7 +118,7 @@
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Experts à votre service</p>
                         </div>
                     </div>

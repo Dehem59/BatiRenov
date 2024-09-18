@@ -1,0 +1,30 @@
+<form action="/contact/" method="post" class="php-email-form card">
+    <div class="row gy-4">
+
+        <div class="col-md-6">
+            <input type="text" name="nom" class="form-control" placeholder="Votre Nom" required>
+        </div>
+
+        <div class="col-md-6">
+            <input type="tel" name="tel" min="9" max="14" class="form-control" placeholder="Votre Numéro" required>
+        </div>
+
+        <div class="col-md-12">
+            <input type="email" class="form-control" name="email" placeholder="Votre Email (Optionnel)">
+        </div>
+
+        <div class="col-md-12">
+            <textarea class="form-control" name="message" rows="6"
+                      placeholder="Précisez votre demande" required></textarea>
+        </div>
+
+        <div class="col-md-12 text-center">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Message Envoyé</div>
+
+            <button type="submit">Envoyer</button>
+        </div>
+
+    </div>
+</form>

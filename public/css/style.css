@@ -73,12 +73,10 @@ section {
   padding: 15px 0;
   background: #012970;
   min-height: 40px;
-  margin-top: 82px;
   color: #fff;
 }
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 57px;
   }
 }
 .breadcrumbs h2 {
@@ -398,9 +396,9 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 10px;
   transition: 0.5s;
-  color: #00483d !important;
+  color: black !important;
   background: #00ffd5;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
@@ -611,7 +609,7 @@ section {
   color: #00ffd5 !important;
 }
 .features .feature-icons {
-  margin-top: 120px;
+  margin-top: 40px;
 }
 .features .feature-icons h3 {
   color: #012970;
@@ -1414,7 +1412,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #012970;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1422,7 +1420,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #5969f3;
+  background: #012970;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -2019,13 +2017,15 @@ section {
 
 .bg-cta{
   background-color: #00ffd5;
-  border-radius: 50px;
-  color: #00483d !important
+  border-radius: 20px;
+  color: black !important;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 
-.bg-cta .cta-txt{
+.bg-cta{
   font-weight: 500;
   font-style: normal;
+  font-size: 15px;
 }
 .phone-button-fixed{
   padding: 8px
@@ -2035,6 +2035,18 @@ section {
   margin: auto;
   box-shadow: 0 5px 14px 0 rgba(0,0,0,.1882352941)
 }
+
+.cta-txt{
+  font-weight: bold;
+}
+
+/*.phone-nb-cta{
+  font-size: 18px
+}
+
+.quote-cta{
+  font-size: 14px
+}*/
 
 .bg-sectioned{
   background-color: #012970!important;

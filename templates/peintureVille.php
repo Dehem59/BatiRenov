@@ -25,6 +25,7 @@ if ($ville == "Nord"){
      Nos peintres professionnels vous accompagnent dans votre projet, de la sélection des couleurs à la pose de la peinture. Contactez-nous dès aujourd'hui pour un devis gratuit !"
           name="description">
     <meta content="peinture, peintre <?php echo $ville;?>" name="keywords">
+    <link rel="canonical" href="https://proxi-renovation.fr<?php echo $_SERVER['REQUEST_URI'];?>" />
 
    <?php
         include_once "commons/common_css.html";
@@ -211,7 +212,7 @@ if ($ville == "Nord"){
                     <div class="count-box">
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
-                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Experts à votre service</p>
                         </div>
                     </div>
